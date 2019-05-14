@@ -31,11 +31,6 @@ class Phaxio
         return new Phaxio\PhaxCodes($this);
     }
 
-    public function public()
-    {
-        return new Phaxio\PhaxioPublic($this);
-    }
-
     public function account() {
         return new Phaxio\Account($this);
     }
